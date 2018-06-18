@@ -27,17 +27,28 @@ if (checkPalindrome("EvadeMeDave")) {
 //- Tested case and boolean: good
 
 
+
 const sumNumbers=(value) => {
     sum = 0;
 
 while (value) {
     sum += value % 10;
     value = Math.floor(value / 10);
-
 }
 return sum;
-//console.log(sum); <-- works fine, below returns 'undefined'
 }
 console.log(sumNumbers(720));
+
+//-
+
+// Pythagoras
+
+const calculateSide = (sideA, sideB) => {  //**confirm varnamecase!
+    return(Math.sqrt((sideA * sideA) + (sideB * sideB)));
+    
+}
+console.log(`${calculateSide(8, 6)}`);
+
+
 
 
