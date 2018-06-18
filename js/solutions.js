@@ -7,14 +7,14 @@
 
 //- 
 
-function checkPalindrome(wordCase) {    
+const checkPalindrome=(wordCase) => {    
     let wordLow = wordCase.toLowerCase();
-    var length = wordLow.length;
+    const length = wordLow.length;
     for (var i = 0; i < length / 2; i++) {
         if (wordLow.charAt(i) !== wordLow.charAt(length - 1 - i)) {
             return false;
         }
-    }
+}
     return true;
 }
 
@@ -27,9 +27,17 @@ if (checkPalindrome("EvadeMeDave")) {
 //- Tested case and boolean: good
 
 
-function SumDigits(number) {
-	Array.from(number.toString()).map(Number);
-	console.log(Number);
-}
+const sumNumbers=(value) => {
+    sum = 0;
 
-SumDigits(42);
+while (value) {
+    sum += value % 10;
+    value = Math.floor(value / 10);
+
+}
+return sum;
+//console.log(sum); <-- works fine, below returns 'undefined'
+}
+console.log(sumNumbers(720));
+
+
