@@ -51,7 +51,7 @@
 			"file": "/Users/depps/ga_wdi_funky_ducks/0614_Functions/w01d04-homework/index.html",
 			"settings":
 			{
-				"buffer_size": 223,
+				"buffer_size": 238,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -60,7 +60,7 @@
 			"file": "solutions.js",
 			"settings":
 			{
-				"buffer_size": 963,
+				"buffer_size": 1687,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -180,15 +180,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 223,
+						"buffer_size": 238,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								123,
+								123
 							]
 						],
 						"settings":
@@ -208,15 +208,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 963,
+						"buffer_size": 1687,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								834
+								1684,
+								1684
 							]
 						],
 						"settings":
@@ -226,7 +226,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 32.0,
+						"translation.y": 573.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
