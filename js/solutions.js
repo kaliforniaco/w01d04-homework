@@ -65,6 +65,8 @@ console.log(sumArray([1,2,3,4,5,6]));
 
 // Prime Numbers
 
+
+
 function printPrime(value) {
     var primes = [];
     for(var i = 2; i < value; i++) {
@@ -87,4 +89,25 @@ function printPrime(value) {
 
 printPrime(100);
 
+//- **INCOMPLETE function
 
+// Insert Dash
+
+
+let num=(983475234).toString(10).split("").map(Number);
+let dashed=[];
+
+for (let i=0; i<num.length-1;i++){
+   
+    if (num[i] % 2 == 0){
+        dashed.push(num[i]);
+    }
+    else {
+        dashed.push(`${num[i]}-`);
+
+    }
+
+}
+dashed.push(num[num.length-1]);
+
+console.log(dashed.join(''));
