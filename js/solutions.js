@@ -111,3 +111,6 @@ for (let i=0; i<num.length-1;i++){
 dashed.push(num[num.length-1]);
 
 console.log(dashed.join(''));
+
+
+//- ** I need to make this work wioth an arrow function! **
